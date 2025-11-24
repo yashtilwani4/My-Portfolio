@@ -159,10 +159,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📧 Contact
 
-Yash Tilwani - techwork.yash0604@gmail.com
-
-Portfolio: [https://yashtilwani.dev](https://yashtilwani.dev)
-
+Yash Tilwani - yashtilwani4@gmail.com
 ---
 
 Made with ❤️ by Yash Tilwani
