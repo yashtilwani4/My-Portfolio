@@ -1,0 +1,37 @@
+import type { MDXComponents } from 'mdx/types'
+
+export function useMDXComponents(components: MDXComponents): MDXComponents {
+  return {
+    h1: ({ children }) => (
+      <h1 className="text-4xl font-bold mt-8 mb-4 bg-gradient-to-r from-blue-600 via-purple-600 to-violet-600 bg-clip-text text-transparent">
+        {children}
+      </h1>
+    ),
+    h2: ({ children }) => (
+      <h2 className="text-3xl font-bold mt-6 mb-3">{children}</h2>
+    ),
+    h3: ({ children }) => (
+      <h3 className="text-2xl font-semibold mt-4 mb-2">{children}</h3>
+    ),
+    p: ({ children }) => (
+      <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">{children}</p>
+    ),
+    ul: ({ children }) => (
+      <ul className="list-disc list-inside mb-4 space-y-2">{children}</ul>
+    ),
+    ol: ({ children }) => (
+      <ol className="list-decimal list-inside mb-4 space-y-2">{children}</ol>
+    ),
+    code: ({ children }) => (
+      <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-sm">
+        {children}
+      </code>
+    ),
+    pre: ({ children }) => (
+      <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto mb-4">
+        {children}
+      </pre>
+    ),
+    ...components,
+  }
+}

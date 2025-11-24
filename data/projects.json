@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "LYNK - Video Conference Platform",
+    "description": "Fully responsive real-time virtual meeting application supporting 500+ concurrent users with secure authentication, screen sharing, and chat functionality. Deployed on Vercel with optimized performance.",
+    "image": "/projects/lynk.jpg",
+    "tech": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Clerk", "GetStream"],
+    "liveUrl": "https://lynk-khaki.vercel.app",
+    "githubUrl": "https://github.com/yashtilwani4/LYNK-Video-Conference"
+  },
+  {
+    "id": 2,
+    "title": "HouseHunt - Property Rental Platform",
+    "description": "Full-stack Airbnb-inspired property rental platform with property management, search & filtering, booking workflows, and geolocation support. Built with modern responsive UI and secure authentication.",
+    "image": "/projects/househunt.jpg",
+    "tech": ["React.js", "Redux", "Node.js", "Express", "MongoDB", "JWT", "Material-UI"],
+    "liveUrl": "https://househunt-demo.vercel.app",
+    "githubUrl": "https://github.com/yashtilwani4/HouseHunt"
+  },
+  {
+    "id": 3,
+    "title": "RideTogether - Carpool Application",
+    "description": "Full-stack carpooling web application with optimized ride-matching algorithm reducing search time by 40%. Features Google Maps API integration for route planning and Docker deployment with 99.5% uptime.",
+    "image": "/projects/ridetogether.jpg",
+    "tech": ["React.js", "Python", "Node.js", "MongoDB", "Docker", "Google Maps API"],
+    "liveUrl": "https://ridetogether-demo.vercel.app",
+    "githubUrl": "https://github.com/yashtilwani4/ridetogether"
+  },
+  {
+    "id": 4,
+    "title": "Gurukripa - Stock Management System",
+    "description": "Complete stock management and billing application for furniture & electronics shop. Features include inventory tracking, invoice generation with PDF export, sales reports, low stock alerts, and JWT authentication with role-based access control.",
+    "image": "/projects/gurukripa.jpg",
+    "tech": ["React.js", "Node.js", "Express", "MongoDB", "JWT", "jsPDF"],
+    "liveUrl": "https://stock-management-and-invoice-genera.vercel.app/",
+    "githubUrl": "https://github.com/yashtilwani4/Stock-Management-and-Invoice-Generator"
+  }
+]
